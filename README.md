@@ -14,3 +14,13 @@ keytool -import -alias maven -keystore cacerts -file Certificate.cer
 ```sh
 keytool -list -v -keystore cacerts
 ```
+
+
+# TODO
+
+### JAXB 
+  ```
+  @XmlRootElement
+  @XmlType
+  @XmlElemet
+  ```
