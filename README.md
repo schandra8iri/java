@@ -28,7 +28,8 @@ keytool -list -v -keystore cacerts
 
 ### How to create a simple java web app - using maven
 
-```mvn archetype:generate -DgroupId=app.web.java -DartifactId=simplejavawebapp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+```sh
+mvn archetype:generate -DgroupId=app.web.java -DartifactId=simplejavawebapp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 ```
 
 
